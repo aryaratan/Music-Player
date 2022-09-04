@@ -1,0 +1,364 @@
+body{
+    background-color:#090116;
+    padding-top:30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: absolute;
+}
+
+
+/*---- nav ----*/
+nav{
+    background-color:inherit;
+    color:white;
+}
+.logo-img{
+    height: 70px;
+    width:150px;
+    margin-left:40px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.search-bar{
+    display: inline-block;
+    margin-left:300px;
+}
+.nav-input{
+    border-radius: 10px;
+    width:300px;
+    opacity:0.3;
+    display: inline;
+    transition: all 0.3 ease-in-out;
+}
+
+.nav-input:hover{
+    transform: scale(1.03,1.03);
+}
+
+.lens{
+    display: inline;
+    margin-bottom: 1px;
+    margin-right: -27px;
+    
+}
+
+.mic{
+    margin-bottom: 1px;
+    display: inline;
+    margin-left:-27px;
+}
+
+
+.bell-icon{
+    margin-left:20px;
+    margin-bottom: 3px;
+}
+
+#my-image{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    margin-left:100px;
+}
+
+
+
+/*-- main --*/
+
+section{
+    margin-left:30px;
+    height: auto;
+    width:auto;
+}
+
+
+#main-song{
+    display: inline-block;
+    color:white;
+    margin-top:100px;
+    /* margin-left:30px; */
+    height: 350px;
+    width:60%;
+    background:rgba(7, 8, 71, 0.4);
+}
+
+#main-song img{
+    height: 100%;
+    width:35%;
+    opacity: 0.6;
+}
+
+#song-desc{
+    padding: 20px;
+    padding-top: 30px;
+    height: 100%;
+    width:62%;
+    display: inline-block;
+    /* margin-left:10px; */
+    vertical-align: top;
+}
+
+.song-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-song{
+    color:dimgrey;
+    font-size:0.7rem;
+}
+
+.play-all{
+    width:150px;
+    height: 45px;
+    color:white;
+    background-image: linear-gradient(90deg, blue,purple);
+}
+
+
+/*----- aside ----*/
+.main-aside{
+    width:29%;
+    height: 100%;
+    color:white;
+    display: inline-block;
+    vertical-align: top;
+    margin-top:100px;
+    margin-left:10px;
+
+}
+
+.singer-img{
+    margin-top:20px;
+    height: 65px;
+    width:65px;
+}
+
+.aside-song{
+    margin-top:20px;
+    margin-left:10px;
+    display: inline-block;
+    width:65%;
+    padding-left: 10px;
+    vertical-align: top;
+}
+
+
+.name-views{
+    display: flex;
+    height:auto;
+    justify-content: space-between;
+}
+
+.singer-name{
+    display: inline;
+    font-size:0.8rem;
+    /* margin-left:10px; */
+}
+
+.views{
+    display: inline;
+    font-size:0.5rem;
+    /* margin-left:13px; */
+}
+
+.singer-type{
+    color:grey;
+    display: inline;
+    font-size: 0.7rem;
+    margin-left:5px;
+}
+
+
+
+/*------ songs list------*/
+
+
+#song-list{
+    display: inline-block;
+    color:white;
+    margin-top:15px;
+    /* margin-left:30px; */
+    /* height: 350px; */
+    width:60%;
+    
+}
+
+.ind-song{
+    padding:10px;
+    margin-top: 10px;
+    background:rgba(7, 8, 71, 0.4);
+}
+.song-img{
+    width:50px;
+    height: 50px;
+}
+
+.song-about{
+    vertical-align: top;
+    width:30%;
+    display: inline-block;
+}
+
+.name-time{
+    display:flex;
+    justify-content: space-between;
+    height: auto;
+    width:100%;
+    margin-left:5px;
+    color:white;
+}
+
+.like-add-icons{
+    display: inline-block;
+    margin-left: 45%;
+    vertical-align: top;
+    width:10%;
+}
+
+
+
+/* ----- recently played ----- */
+.second-aside{
+    /* width:25%;
+    height: 100%;
+    color:white;
+    display: inline-block;
+    vertical-align: top;
+    margin-top:40px;
+    margin-left:10px; */
+    width:29%;
+    height: 100%;
+    color:white;
+    display: inline-block;
+    vertical-align: top;
+    /* margin-top:100px; */
+    margin-left:10px;
+}
+
+/* .recent-song-list{
+    width:100%;
+    height: auto;
+} */
+
+.recent-like-add-icons{
+    display: inline-block;
+    margin-left: 30%;
+    vertical-align: top;
+    width:10%;
+}
+
+.song{
+    width:90vw;
+    /* margin:auto; */
+    position: fixed;
+    border-radius: 0% !important;
+    bottom: 0;
+    color:rgba(0,0,0,0.5);
+    /* left:40px; */
+    background-color: black;
+}
+
+
+/* ----- animation ----*/
+.card{
+    transition: all 0.4s ease-in-out ;
+    display: inline-block;
+}
+
+.card:hover{
+    transform: scale(1.06,1.06);
+    opacity: 0.5;
+}
+
+.portfolio-image-container:hover {
+    box-shadow: 0 0 20px #74ADC8;
+}
+
+    /* @keyframes zoomIn{
+        from{
+            transform: scale(1,1);
+            opacity:1;
+        }
+
+        to{
+            transform: scale(1.1,1.1);
+            opacity: 0.7;
+        }
+        
+    } */
+
+
+/*---- bottom music player ----*/
+.bottom-music-player {
+    width: 100%;
+    background: #000;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color:white;
+    left:0;
+}
+
+.song-div {
+    width: 20%;
+    height: 80px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.song-img {
+    width: 50px;
+    height: 50px;
+}
+
+.music-control{
+    width: 30%;
+    height: 80px;
+    background: transparent;
+    
+}
+
+.control-icons{
+    width: 60%;
+    margin: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.music-range{
+    width: 100%;
+    margin: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.7rem;
+    color:white;
+}
+
+.music-range input{
+    width:80%;
+    height: 6px;
+}
+
+.volume-div{
+    width: 20%;
+    height: 80px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#points{
+    width:100px;
+    height: 5px;
+}

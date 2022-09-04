@@ -1,0 +1,418 @@
+body{
+    background-color:#090116;
+    padding-top:30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: absolute;
+}
+
+
+/*---- nav ----*/
+nav{
+    background-color:inherit;
+    color:white;
+}
+.logo-img{
+    height: 70px;
+    width:150px;
+    margin-left:40px;
+    background-color: white;
+    border-radius: 30%;
+}
+
+.search-bar{
+    display: inline-block;
+    margin-left:300px;
+}
+.nav-input{
+    border-radius: 10px;
+    width:300px;
+    opacity:0.3;
+    display: inline;
+    transition: all 0.3 ease-in-out;
+}
+
+.nav-input:hover{
+    transform: scale(1.03,1.03);
+}
+
+.lens{
+    display: inline;
+    margin-bottom: 1px;
+    margin-right: -27px;
+    
+}
+
+.mic{
+    margin-bottom: 1px;
+    display: inline;
+    margin-left:-27px;
+}
+
+
+.bell-icon{
+    margin-left:20px;
+    margin-bottom: 3px;
+}
+
+#my-image{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    margin-left:100px;
+}
+
+/*----- main ----*/
+main{
+    /* width:72%; */
+
+    /* height: 70vh; */
+    /* background-color: white; */
+
+    /* margin-top: -200px; */
+    display: inline-block;
+    width:74%;
+    height: auto;
+    background-color:transparent;
+    margin-top: 80px;
+    color:white;
+    /* display: inline-block; */
+    /* margin-left: 15px; */
+    padding:15px;
+}
+
+.main-images{
+    margin: auto;
+    width:100%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-images img{
+    width:210px;
+    height: 210px;
+}
+
+.latest-release{
+    color:white;
+    width:100%;
+    margin: auto;
+    height: auto;
+    margin-top: 40px;
+    margin-left:45px;
+}
+
+.latest-singer{
+    width: 90%;
+    height: auto;
+    /* background-color: white; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ind-latest-singer{
+    padding: 10px;
+    width:48%;
+    height: 80px;
+    color:white;
+    /* background-color: orange; */
+}
+
+.latest-singer-img{
+    height: 75px;
+    width:75px;
+}
+
+.latest-singer-name{
+    width:65%;
+}
+
+.name-time{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.popular-artists{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top:40px;
+    /* background-color: white; */
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+}
+
+.artists-image{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.popular-singer-img{
+    width:16%;
+    height: 100px;
+    /* border-radius: 50%; */
+}
+
+.popular-singer-img img{
+    width:100%;
+    height:100px;
+    border-radius:50%;
+}
+
+.music-stations{
+    padding: 5px;
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    margin-top:40px;
+    display: flex;
+    background-color: #230f44;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+}
+
+.station-img{
+    width:13%;
+    border-radius: 50%;
+    height: 80px;
+}
+
+.song-types{
+    /* padding: 5px; */
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    margin-top:40px;
+    display: flex;
+    /* background-color: #230f44; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg-img{
+    width:31%;
+    height: 100px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url("images/shaan.jpeg");
+    /* border-radius: 50%; */
+}
+
+
+
+
+#romace{
+    background-image: url("images/satinder-sartaj.jpeg"); 
+}
+
+#pop{
+    background-image: url("images/justin.jpeg");
+}
+
+#Quwaal{
+    background-image: url("images/rahat-fateh-ali-khan.jpeg");
+}
+
+#rap{
+    background-image: url("images/the-rise-and-fall-of-yo-yo-honey-singh-2.jpg");
+}
+
+#female-early{
+    background-image: url("images/alka-yagnik.jpeg");
+}
+
+#female-new{
+    /* opacity: 0.5; */
+    background-image: url("images/sunidhi-chauhan.jpeg");
+}
+
+
+.radius{
+    border-radius: 50%;
+}
+
+
+
+.bg-img-station{
+    width:10%;
+    height:70px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    /* opacity: 0.5; */
+    /* background-image: url("images/satinder-sartaj.jpeg"); */
+}
+
+.img-cover{
+    width:100%;
+    height: 100%;
+    background-color:dimgrey;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.text{
+    /* text-align: center; */
+    color:white;
+    /* margin:auto ; */
+    /* opacity: 1; */
+    /* z-index: 2;
+    position: absolute;
+    left:3; */
+    font-size:0.7rem;
+    top:0;
+}
+
+.latest-english{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top:40px;
+    color:white;
+}
+
+.latest-english-songs{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.latest-english-img{
+    width:15%;
+    height: auto;
+}
+
+.latest-english-img img{
+    width:100%;
+    height:90px;
+}
+
+/*--- aside ---- */
+
+aside{
+    width:25%;
+    height: auto;
+    background-color:transparent;
+    margin-top: 80px;
+    color:white;
+    display: inline-block;
+    /* margin-left: 15px; */
+    padding:10px;
+    vertical-align: top;
+}
+
+.queue-singer{
+    margin-top:10px;
+    padding:5px;
+}
+aside img{
+    width: 60px;
+    height: 60px;
+}
+
+aside p{
+    font-size: 0.8rem;
+}
+
+.inline-block-display{
+    display: inline-block;
+}
+
+
+
+/*---- bottom music player ----*/
+.bottom-music-player {
+    width: 100%;
+    background: #000;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color:white;
+    left:0;
+}
+
+.song-div {
+    width: 20%;
+    height: 80px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.song-img {
+    width: 50px;
+    height: 50px;
+}
+
+.music-control{
+    width: 30%;
+    height: 80px;
+    background: transparent;
+    
+}
+
+.control-icons{
+    width: 60%;
+    margin: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.music-range{
+    width: 100%;
+    margin: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.7rem;
+    color:white;
+}
+
+.music-range input{
+    width:80%;
+    height: 6px;
+}
+
+.volume-div{
+    width: 20%;
+    height: 80px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#points{
+    width:100px;
+    height: 5px;
+}
+
+
+
+
+
+.card{
+    transition: all 0.2s ease-in-out ;
+    display: inline-block;
+    background-color:transparent;
+}
+
+.card:hover{
+    transform: scale(1.06,1.06);
+    opacity: 0.5;
+}
